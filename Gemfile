@@ -17,6 +17,7 @@ gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 gem 'select2-rails'
 gem 'jquery-slick-rails'
 gem 'lightbox2-rails'
+gem 'sweetalert-rails'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
