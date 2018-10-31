@@ -15,7 +15,7 @@ gem 'animate-rails'
 gem 'font-awesome-rails'
 gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
 gem 'select2-rails'
-gem 'jquery-slick-rails'
+gem 'slick_rails'
 gem 'lightbox2-rails'
 gem 'sweetalert-rails'
 

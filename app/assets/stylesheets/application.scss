@@ -12,6 +12,8 @@
  *
  *= require animate
  *= require select2-bootstrap
+ *= require slick
+ *= require slick-theme  
  *= require_tree .
  *= require sweetalert
  *= require_self
@@ -20,5 +22,4 @@
  @import "bootstrap";
  @import "font-awesome";
  @import "themify-icons";
- @import "slick";
  @import "lightbox";

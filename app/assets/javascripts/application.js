@@ -15,7 +15,7 @@
 //= require activestorage
 //= require turbolinks
 //= require select2-full
-//= require jquery.slick
+//= require slick
 //= require lightbox
 //= require sweetalert
 //= require bootstrap-sprockets
