@@ -11,12 +11,5 @@
 // about supported directives.
 //
 //= require activestorage
-//= require jquery
 //= require turbolinks
-//= require popper
-//= require bootstrap
-//= require select2-full
-//= require slick
-//= require lightbox
-//= require sweetalert
 //= require_tree .

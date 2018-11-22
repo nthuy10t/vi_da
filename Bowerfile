@@ -1,0 +1,12 @@
+# A sample Bowerfile
+# Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
+
+asset "jquery"
+asset 'bootstrap'
+asset 'font-awesome', '~4.6.3'
+asset 'slick-carousel'
+asset 'slick-lightbox'
+asset 'themify-icons'
+asset 'sweetalert'
+asset 'select2-bootstrap'
+asset 'animate-css'
