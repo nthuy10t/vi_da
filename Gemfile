@@ -10,6 +10,14 @@ gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
+gem 'animate-rails'
+gem 'font-awesome-rails'
+gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
+gem 'select2-rails'
+gem 'slick_rails'
+gem 'lightbox2-rails'
+gem 'sweetalert-rails'
+
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -30,9 +38,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 gem 'carrierwave'
+gem 'bootstrap'
 gem 'jquery-rails'
-gem 'bower-rails', '~> 0.11.0'
-
+gem 'rails_bootstrap_navbar'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
