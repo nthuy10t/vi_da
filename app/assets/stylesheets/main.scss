@@ -2218,7 +2218,11 @@ body {padding-right: 0px !important;}
   overflow-y: auto !important;
 }
 .modal-open {overflow-y: scroll;}
-
+.modal-content {
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+  width: auto;
+}
 /* ------------------------------------ */
 .modal-backdrop {
   background-color: transparent;
@@ -2227,7 +2231,6 @@ body {padding-right: 0px !important;}
 #modal-video-01 {
   background-color: rgba(0,0,0,0.8);
   z-index: 1350;
-  
 }
 
 #modal-video-01 .modal-dialog {
@@ -2271,7 +2274,7 @@ body {padding-right: 0px !important;}
   height: 100%;
 }
 
-.close-mo-video-01 {
+.modal-content .close-mo-video-01 {
   font-size: 50px;
   color: white;
   opacity: 0.6;
@@ -2295,20 +2298,19 @@ body {padding-right: 0px !important;}
   opacity: 1;
 }
 
-
 /*[ Input NumProduct ]
 ///////////////////////////////////////////////////////////
 */
 input.num-product {
-    -moz-appearance: textfield;
-    appearance: none;
-    -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 input.num-product::-webkit-outer-spin-button,
 input.num-product::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0; 
+  -webkit-appearance: none;
+  margin: 0; 
 }
 
 
