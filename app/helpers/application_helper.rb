@@ -1,6 +1,6 @@
 module ApplicationHelper
   def parent_categories
-    @responses[:categories].where(parent_id: 0)
+    @responses[:categories].where(parent_id: nil)
   end
 
   def sub_categories(parent_id)
