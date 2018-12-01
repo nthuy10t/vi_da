@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   private
   def load_element_page
     categories = Category.all
-    @responses = {categories: categories}
+    sliders = Slider.all
+    @responses = {sliders: sliders, categories: categories}
   end
 end

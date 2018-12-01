@@ -2,20 +2,10 @@
 	<section class="slide1">
     <div class="wrap-slick1">
       <div class="slick1">
-        <%#= render partial: 'home/slider', collection: @sliders %>
-        <%= render partial: 'home/slider', collection: ['1'] %>
+        <%= render partial: 'home/slider', collection: @responses[:sliders] %>
       </div>
     </div>  
 	</section>
-
-	<!-- Banner -->
-	<div class="banner bgwhite p-t-40 p-b-40">
-		<div class="container">
-			<div class="row">
-				<%= render partial: 'home/banner', collection: ['1', '1', '1'] %>
-			</div>
-		</div>
-	</div>
 
   <!-- Our product -->
 	<section class="bgwhite p-t-45 p-b-58">
