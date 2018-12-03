@@ -19,6 +19,7 @@ gem 'slick_rails'
 gem 'lightbox2-rails'
 gem 'sweetalert-rails'
 gem 'bootstrap'
+gem 'rails_12factor'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
